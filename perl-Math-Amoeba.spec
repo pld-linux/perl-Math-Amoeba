@@ -5,7 +5,7 @@ Summary:	Math::Amoeba perl module
 Summary(pl):	Modu³ perla Math::Amoeba
 Name:		perl-Math-Amoeba
 Version:	0.01
-Release:	10
+Release:	11
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
