@@ -3,7 +3,7 @@ Summary:	Math-Amoeba perl module
 Summary(pl):	Modu³ perla Math-Amoeba
 Name:		perl-Math-Amoeba
 Version:	0.01
-Release:	5
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -12,6 +12,7 @@ Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Math/Math-Amoeba-%{versio
 Patch0:		%{name}-man.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
