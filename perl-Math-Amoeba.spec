@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Math
-%define	pnam	Amoeba
+%define		pdir	Math
+%define		pnam	Amoeba
 Summary:	Math::Amoeba perl module
 Summary(pl):	Modu³ perla Math::Amoeba
 Name:		perl-Math-Amoeba
