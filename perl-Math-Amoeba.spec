@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Math
 %define	pnam	Amoeba
-Summary:	Math-Amoeba perl module
-Summary(pl):	Modu³ perla Math-Amoeba
+Summary:	Math::Amoeba perl module
+Summary(pl):	Modu³ perla Math::Amoeba
 Name:		perl-Math-Amoeba
 Version:	0.01
 Release:	8
@@ -16,12 +16,12 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Math-Amoeba is an implimenation of the Downhill Simpex Method in
+Math::Amoeba is an implimenation of the Downhill Simpex Method in
 Multidimensions (Nelder and Mead) for finding the (local) minimum of a
 function.
 
 %description -l pl
-Modu³ perla Math-Amoeba.
+Modu³ perla Math::Amoeba.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
