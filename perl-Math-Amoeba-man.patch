@@ -1,0 +1,10 @@
+--- Amoeba.pm~	Tue Dec 26 11:14:29 1995
++++ Amoeba.pm	Sun Oct 17 01:25:54 1999
+@@ -1,6 +1,7 @@
+ # This library file contains Amoeba n-D Minimisation routine for Perl
+ # $Id$ 
+ # $Id$
++
+ =head1 NAME
+ 
+     Math::Amoeba - Multidimensional Function Minimisation
