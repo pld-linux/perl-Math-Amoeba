@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Math
 %define	pnam	Amoeba
-%include	/usr/lib/rpm/macros.perl
 Summary:	Math-Amoeba perl module
 Summary(pl):	Modu³ perla Math-Amoeba
 Name:		perl-Math-Amoeba
 Version:	0.01
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -25,7 +24,7 @@ function.
 Modu³ perla Math-Amoeba.
 
 %prep
-%setup -q -n Math-Amoeba-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 %patch -p0
 
 %build
