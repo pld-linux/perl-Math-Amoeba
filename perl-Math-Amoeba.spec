@@ -4,11 +4,11 @@ Summary(pl):	Modu³ perla Math-Amoeba
 Name:		perl-Math-Amoeba
 Version:	0.01
 Release:	3
-Copyright:	GPL
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/Math/Math-Amoeba-%{version}.tar.gz
-Patch:		perl-Math-Amoeba-man.patch
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Math/Math-Amoeba-%{version}.tar.gz
+Patch0:		perl-Math-Amoeba-man.patch
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
@@ -16,9 +16,9 @@ Requires:	%{perl_sitearch}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Math-Amoeba is an implimenation of the Downhill Simpex Method 
-in Multidimensions (Nelder and Mead) for finding the (local) minimum 
-of a function.
+Math-Amoeba is an implimenation of the Downhill Simpex Method in
+Multidimensions (Nelder and Mead) for finding the (local) minimum of a
+function.
 
 %description -l pl
 Modu³ perla Math-Amoeba.
