@@ -6,7 +6,8 @@ Summary(pl):	Modu³ perla Math::Amoeba
 Name:		perl-Math-Amoeba
 Version:	0.01
 Release:	10
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	70347881caf5989ec45fce28cd730359
