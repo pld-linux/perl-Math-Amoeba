@@ -1,17 +1,20 @@
+#
+# Conditional build:
+%bcond_without	tests	# do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Math
 %define		pnam	Amoeba
 Summary:	Math::Amoeba perl module
 Summary(pl):	Modu³ perla Math::Amoeba
 Name:		perl-Math-Amoeba
-Version:	0.01
-Release:	11
+Version:	0.02
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	70347881caf5989ec45fce28cd730359
-Patch0:		%{name}-man.patch
+# Source0-md5:	540c2158749ff945faff7a4897557bd1
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -29,12 +32,13 @@ funkcji.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
-%patch -p0
 
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
 %{__make}
+
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
