@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	Amoeba
 Summary:	Math::Amoeba perl module
-Summary(pl):	Modu≥ perla Math::Amoeba
+Summary(pl.UTF-8):   Modu≈Ç perla Math::Amoeba
 Name:		perl-Math-Amoeba
 Version:	0.02
 Release:	1
@@ -25,8 +25,8 @@ Math::Amoeba is an implimenation of the Downhill Simpex Method in
 Multidimensions (Nelder and Mead) for finding the (local) minimum of a
 function.
 
-%description -l pl
-Modu≥ perla Math::Amoeba jest implementacj± metody "Downhill Simplex"
+%description -l pl.UTF-8
+Modu≈Ç perla Math::Amoeba jest implementacjƒÖ metody "Downhill Simplex"
 w wielu wymiarach (Neldera i Meada) do znajdowania (lokalnego) minimum
 funkcji.
 
