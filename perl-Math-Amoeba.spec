@@ -6,7 +6,7 @@
 %define		pdir	Math
 %define		pnam	Amoeba
 Summary:	Math::Amoeba perl module
-Summary(pl.UTF-8):   Moduł perla Math::Amoeba
+Summary(pl.UTF-8):	Moduł perla Math::Amoeba
 Name:		perl-Math-Amoeba
 Version:	0.02
 Release:	1
