@@ -8,13 +8,13 @@
 Summary:	Math::Amoeba perl module
 Summary(pl.UTF-8):	Moduł perla Math::Amoeba
 Name:		perl-Math-Amoeba
-Version:	0.02
+Version:	0.04
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	540c2158749ff945faff7a4897557bd1
+# Source0-md5:	1426212c0f6e4c16569bc2e8fb68b02a
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
